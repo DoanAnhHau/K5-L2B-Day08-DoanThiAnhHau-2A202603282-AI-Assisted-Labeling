@@ -1,0 +1,8 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,10,sai_vi_tri_kich_thuoc,Hau,"Box three_wheeler quá rộng: gồm nhiều khoảng nền/bóng quanh xe; thu box sát đường bao xe và phần kết cấu gắn liền, theo 4.1.1 và v1.1 mục 2."
+img_006.jpg,69,sai_vi_tri_kich_thuoc,Hau,"Box motorbike rộng và chồng mạnh với ID 77, gộp nhiều xe đỗ thành vùng lớn; tách box từng xe nhận diện được theo 4.1.4 và v1.1 mục 2."
+img_006.jpg,77,sai_vi_tri_kich_thuoc,Hau,"Box motorbike rộng và chồng mạnh với ID 69, gộp nhiều xe đỗ thành vùng lớn; tách box từng xe nhận diện được theo 4.1.4 và v1.1 mục 2."
+img_014.jpg,,khong,Hau,"Đã rà soát các box hiển thị; không thấy lỗi lớp hoặc hình học rõ ràng theo guideline."
+img_031.jpg,391,sai_vi_tri_kich_thuoc,Hau,"Box bicycle bao cả hàng trái cây/hàng hóa nhô xa khỏi xe; guideline v1.1 mục 1 câu 3 quy định chỉ box phương tiện và phần gắn cố định, không nhập hàng rời."
+img_035.jpg,433,sai_vi_tri_kich_thuoc,Hau,"Box three_wheeler chỉ bao phần mui/thân trên của chiếc xe ở xa; thiếu phần xe còn nhìn thấy phía dưới. Cần một box ôm sát toàn phương tiện theo 4.1.1."
+img_035.jpg,434,sai_vi_tri_kich_thuoc,Hau,"Box three_wheeler bao phần dưới nhưng không bao trọn xe; trùng cùng xe với ID 433. Gộp thành một box ôm sát toàn xe theo 4.1.1."
