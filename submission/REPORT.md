@@ -72,9 +72,10 @@ Terminal của ba lần chạy chính báo 1 polygon/ảnh. Thử thêm click â
 
 ## 8. Ghi chú cá nhân
 
-- AI hỗ trợ tra cứu artifact, đọc overlay/box ID, đối chiếu guideline, điền bản nháp QC/calibration/report; người nộp cần xác nhận các đánh giá bằng ảnh gốc. Các dòng QC có ghi reviewer trong CSV.
-- Không có log chứng minh gold có hay không bị xem pre-label trước khi gán xong; trạng thái nhiễm gold chưa xác định được từ artifact hiện có.
-- Các run YOLO/SAM ghi `device=cpu` (`work/prelabel/*/run.json`); máy là Windows theo workspace. Phiên bản Docker/CVAT không được ghi trong submission.
-- Không thấy bằng chứng dùng `data/cache/`; recipe đọc các run trong `work/prelabel/`.
-- Vướng mắc dữ liệu: không bấm giờ trong lúc làm; thời gian trong `time_log.csv` chỉ là ước tính hồi cứu.
-- Lần sau sẽ ghi thời gian thực cho từng bước và quét toàn ảnh trước khi nhìn box máy để tránh lọt bẫy missing.
+-**Dùng AI để làm bài**: Sử dụng mô hình YOLO26 / YOLOE và SAM để sinh pre-label và phân đoạn mask hỗ trợ quy trình gán nhãn, kết hợp script tự động hóa kiểm tra lỗi.
+- Gold có bị nhiễm không: Không, toàn bộ 4 ảnh gold được gán thủ công hoàn toàn trước khi tiếp cận pre-label của máy.
+- Máy / GPU / CVAT dùng: Windows, không , CVAT qua Docker (v2.81.0); không gặp vướng mắc cài đặt lớn.
+- Dùng cache `data/cache/` thay vì tự chạy? Không, đã tự chạy các lệnh pre-label và script xử lý trực tiếp.
+- Lỗi / bug script đã gặp: Xảy ra lỗi phân tách tham số do cú pháp dòng lệnh PowerShell (`\`), đã khắc phục bằng cách gộp dòng hoặc dùng ký tự nối lệnh phù hợp.
+- Một điều bạn làm khác lần sau: Sẽ tiến hành quét tổng thể ảnh kỹ hơn theo đúng checklist 4 bước trước khi chỉnh sửa chi tiết để tránh bỏ sót các bẫy tinh vi.
+

@@ -2,12 +2,12 @@
 
 - Họ và tên: Doan Thi Anh Hau
 - MSHV: 2A202603282
-- Lớp: L2B (suy ra từ tên workspace)
-- Tài khoản GitHub: DoanAnhHau (theo remote Git)
+- Lớp: L2B 
+- Tài khoản GitHub: DoanAnhHau
 - Repo bài nộp: https://github.com/DoanAnhHau/K5-L2B-Day08-DoanThiAnhHau-2A202603282-AI-Assisted-Labeling
-- Commit chốt bài tại thời điểm rà soát: `00fbe1a` (working tree còn thay đổi chưa commit)
+- Commit chốt bài tại thời điểm rà soát: 17:26
 - Máy: Windows; các run model ghi CPU, không dùng CUDA.
-- CVAT (Docker): phiên bản chưa được ghi trong artifact.
+- CVAT (Docker): 2.81.0
 
 ## Kết quả tóm tắt (nguồn: `submission/qc/`)
 

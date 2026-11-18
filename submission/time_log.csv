@@ -1,5 +1,5 @@
 step,images,minutes,note
 gold_manual,4,8,"Tổng 8 phút (~2 phút/ảnh)."
-batch_review,24,20,"Tổng 20 phút (~0.42 phút/ảnh)."
+batch_review,24,20,"Tổng 20 phút "
 sam_masks,3,0.43," 8.55 giây/ảnh × 3 ảnh = 25.65 giây = 0.43 phút; "
 
